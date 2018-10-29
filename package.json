@@ -1,0 +1,39 @@
+{
+  "name": "protractor_cucumber_template",
+  "version": "1.0.0",
+  "description": "Simple template to start writing e2e tests using Protractor + Cucumber.",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "node_modules/protractor/bin/webdriver-manager update",
+    "test": "node_modules/protractor/bin/protractor protractor.conf.js --baseUrl=\"http://automationpractice.com/\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lromanowicz/protractor_cucumber_template.git"
+  },
+  "keywords": [
+    "protractor",
+    "cucumber",
+    "typescript"
+  ],
+  "author": "lromanowicz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lromanowicz/protractor_cucumber_template/issues"
+  },
+  "homepage": "https://github.com/lromanowicz/protractor_cucumber_template#readme",
+  "dependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/cucumber": "^4.0.4",
+    "chai": "^4.2.0",
+    "cli-color": "^1.4.0",
+    "cucumber": "^5.0.2",
+    "cucumber-pretty": "^1.4.4",
+    "moment": "^2.22.2",
+    "protractor": "^5.4.1",
+    "protractor-cucumber-framework": "^6.1.1",
+    "protractor-multiple-cucumber-html-reporter-plugin": "^1.8.0",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.1.3"
+  }
+}
